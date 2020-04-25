@@ -4,14 +4,15 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='fw',
-    version='1.7.6',
-    author='Habib E. Manzur',
-    author_email='habibmanzur06@gmail.com',
-    description='Emtelco Base Framework',
+    name='fwbasemodel',
+    version='0.1',
+    author='Germapat',
+    scripts=['fw'] ,
+    author_email='gdpm1986@gmail.com',
+    description='Base models, export',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://bitbucket.org/Emtelco_TIC/django-fw',
+    url='https://github.com/germapat/fw/',
     packages=setuptools.find_packages(exclude=['tests*']),
     include_package_data=True,
     install_requires=[],
