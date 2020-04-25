@@ -1,7 +1,7 @@
 import setuptools
 
 with open('README.md', 'r') as fh:
-    long_description = fh
+    long_description = fh.read()
 
 setuptools.setup(
     name='fwbasemodel',
@@ -25,13 +25,12 @@ setuptools.setup(
         'Framework :: Django :: 2.0',
         'Framework :: Django :: 2.1',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
-        'Topic :: Internet :: WWW/HTTP',
     ]
 
 )
