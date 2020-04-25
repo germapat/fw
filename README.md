@@ -3,9 +3,7 @@
 
 
 ## Instalación
-Instalar repositorio usando pip. Se debe cambiar USER_NAME por el usuario de bitbucket
-
-    pip install git+https://USER_NAME@bitbucket.org/Emtelco_TIC/django-fw.git
+pip install fw or go to your preference folder and launch git clone https://github.com/germapat/fw
     
     
 ### Configuración
