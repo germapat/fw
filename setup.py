@@ -1,18 +1,17 @@
 import setuptools
 
 with open('README.md', 'r') as fh:
-    long_description = fh.read()
+    long_description = fh
 
 setuptools.setup(
     name='fwbasemodel',
-    version='0.1',
+    version='1.0.0',
     author='Germapat',
-    scripts=['fw'] ,
     author_email='gdpm1986@gmail.com',
     description='Base models, export',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/germapat/fw/',
+    url='https://github.com/germapat/fw',
     packages=setuptools.find_packages(exclude=['tests*']),
     include_package_data=True,
     install_requires=[],

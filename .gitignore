@@ -1,8 +1,14 @@
 .idea
-
-
 .venv
 venv
 .env
 .virtualenv
 virtualenvs
+/fw_base_model.egg-info/
+/dist/
+build/
+.settings/
+.project
+.classpath
+*.pyc
+/__pycache__/
