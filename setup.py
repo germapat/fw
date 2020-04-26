@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='fwbasemodel',
-    version='1.0.0',
+    version='1.0.5',
     author='Germapat',
     author_email='gdpm1986@gmail.com',
     description='Base models, export',

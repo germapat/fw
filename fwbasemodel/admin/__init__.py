@@ -3,7 +3,7 @@
 
 from django.contrib.admin.sites import site
 from django.utils.module_loading import autodiscover_modules
-from fw.admin.options import BaseModelAdmin, BaseInlineMixin
+from fwbasemodeladmin.options import BaseModelAdmin, BaseInlineMixin
 
 __all__ = ['BaseModelAdmin', 'BaseInlineMixin']
 

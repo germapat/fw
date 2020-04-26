@@ -6,7 +6,7 @@ from django.db import models
 from django.contrib.auth import get_user_model
 from django.forms import model_to_dict
 from django.utils import timezone
-from fw.managers import BaseManager, AdminManager
+from fwbasemodel.managers import BaseManager, AdminManager
 
 User = get_user_model()
 

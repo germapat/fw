@@ -3,7 +3,7 @@ from django.db.models import QuerySet
 from django.http import HttpResponse
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from fw.models import PERMISSION_EXPORT_CODE
+from fwbasemodelmodels import PERMISSION_EXPORT_CODE
 import logging
 
 

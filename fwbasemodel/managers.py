@@ -1,5 +1,5 @@
 from django.db import models
-from fw.querysets import BaseQuerySet
+from fwbasemodel.querysets import BaseQuerySet
 
 
 class BaseManager(models.Manager):
